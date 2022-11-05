@@ -1,1 +1,113 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header .top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 38px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #F5F5F5;
+}
+header .top-header .header-logo svg {
+  padding: 0 12px;
+  height: 36px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+header .top-header .header-logo svg:hover {
+  opacity: 0.5;
+}
+header .top-header .sign-in a {
+  text-decoration: none;
+  color: #111;
+  font-size: 12px;
+  transition: 0.2s;
+}
+header .top-header .sign-in a:hover {
+  opacity: 0.5;
+}
+header .top-header .sign-in span {
+  font-size: 12px;
+  margin: 0 4px;
+}
+header .header {
+  height: 60px;
+  padding: 0 38px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header .header-nike {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+header .header .header-nike:hover {
+  opacity: 0.5;
+}
+header .header .header-content {
+  margin: 0;
+  line-height: 60px;
+}
+header .header .header-content li {
+  display: inline-block;
+  list-style-type: none;
+}
+header .header .header-content li a {
+  text-decoration: none;
+  color: #111;
+}
+header .header .header-cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: -8px;
+}
+header .header .header-cart .search .search-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+}
+header .header .header-cart .search .search-icon:hover {
+  background-color: #e5e5e5;
+}
+header .header .header-cart .search svg {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 9px;
+}
+header .header .header-cart .search input {
+  border-radius: 20px;
+  height: 24px;
+  outline: none;
+  max-width: 118px;
+  padding: 8px 24px 8px 48px;
+  border: none;
+  background-color: #F5F5F5;
+  margin-right: 8px;
+}
+header .header .header-cart .search input::-moz-placeholder {
+  color: #ccc;
+}
+header .header .header-cart .search input:-ms-input-placeholder {
+  color: #ccc;
+}
+header .header .header-cart .search input::placeholder {
+  color: #ccc;
+}
+header .header .header-cart .search input:hover {
+  background-color: #e5e5e5;
+}
+header .header .header-cart .cart-icon {
+  padding: 3px 5px;
+  margin-left: 8px;
+  display: block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header .header .header-cart .cart-icon:hover {
+  background-color: #e5e5e5;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,137 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 38px;
+        height: 36px;
+        line-height: 36px;
+        background-color: #F5F5F5;
+
+        .header-logo {
+            svg {
+                padding: 0 12px;
+                height: 36px;
+                cursor: pointer;
+                transition: 0.2s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .sign-in {
+            a {
+                text-decoration: none;
+                color: #111;
+                font-size: 12px;
+                transition: 0.2s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+
+            span {
+                font-size: 12px;
+                margin: 0 4px;
+            }
+        }
+    }
+
+    .header {
+        height: 60px;
+        padding: 0 38px;
+        display: flex;
+        justify-content: space-between;
+
+        .header-nike {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        .header-content {
+            margin: 0;
+            line-height: 60px;
+
+            li {
+                display: inline-block;
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: #111;
+
+                }
+            }
+        }
+
+        .header-cart {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-right: -8px;
+
+            .search {
+                .search-icon {
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    border-radius: 50%;
+
+                    &:hover {
+                        background-color: #e5e5e5;
+                    }
+                }
+
+                svg {
+                    position: absolute;
+                    z-index: 1;
+                    top: 10px;
+                    left: 9px;
+                }
+
+                input {
+                    border-radius: 20px;
+                    height: 24px;
+                    outline: none;
+                    max-width: 118px;
+                    padding: 8px 24px 8px 48px;
+                    border: none;
+                    background-color: #F5F5F5;
+                    margin-right: 8px;
+
+                    &::placeholder {
+                        color: #ccc;
+                    }
+
+                    &:hover {
+                        background-color: #e5e5e5;
+                    }
+                }
+            }
+
+            .cart-icon {
+                padding: 3px 5px;
+                margin-left: 8px;
+                display: block;
+                border-radius: 50%;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #e5e5e5;
+
+                }
+            }
+        }
+    }
+}
