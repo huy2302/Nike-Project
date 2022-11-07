@@ -49,19 +49,20 @@ header .header .header-nike:hover {
 header .header .header-content {
   margin: 0;
   line-height: 60px;
+  margin-left: 124px;
 }
 header .header .header-content li {
   display: inline;
   list-style-type: none;
-  padding: 16px 12px 18px 12px;
   cursor: pointer;
-}
-header .header .header-content li:hover {
-  border-bottom: 2px solid #000;
 }
 header .header .header-content li a {
   text-decoration: none;
   color: #111;
+  padding: 16px 12px 18px 12px;
+}
+header .header .header-content li a:hover {
+  border-bottom: 2px solid #000;
 }
 header .header .header-cart {
   display: flex;
