@@ -51,8 +51,13 @@ header .header .header-content {
   line-height: 60px;
 }
 header .header .header-content li {
-  display: inline-block;
+  display: inline;
   list-style-type: none;
+  padding: 16px 12px 18px 12px;
+  cursor: pointer;
+}
+header .header .header-content li:hover {
+  border-bottom: 2px solid #000;
 }
 header .header .header-content li a {
   text-decoration: none;
