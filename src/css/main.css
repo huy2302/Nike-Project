@@ -116,4 +116,74 @@ header .header .header-cart .cart-icon {
 }
 header .header .header-cart .cart-icon:hover {
   background-color: #e5e5e5;
+}
+
+#main .banner-wrap {
+  background-color: #F5F5F5;
+}
+#main .banner-wrap .banner-element {
+  display: none;
+  text-align: center;
+  padding: 6px 0 10px 0;
+  padding-bottom: 10px 0;
+  transition: 0.2s;
+}
+#main .banner-wrap .banner-element h4 {
+  font-weight: 100;
+  margin: 0;
+  padding-bottom: 6px;
+  color: #111;
+}
+#main .banner-wrap .banner-element p {
+  font-size: 12px;
+  margin: 0;
+  color: #111;
+  padding: 6px 0;
+}
+#main .banner-wrap .banner-element a {
+  font-size: 12px;
+  margin: 0 0 6px 0;
+  color: #111;
+  padding: 6px 0 0 0;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+#main .banner-wrap .banner-active {
+  display: block;
+}
+#main .gitfs-container a {
+  width: 92%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+}
+#main .gitfs-container a .gitfs-img {
+  padding-top: 50%;
+  background: url("../img/gitfs.webp") top center/cover no-repeat;
+}
+#main .gitfs-container a h1 {
+  font-family: "Changa One", cursive;
+  text-transform: uppercase;
+  font-size: 72px;
+  margin: 0;
+  line-height: 72px;
+  margin-top: 40px;
+}
+#main .gitfs-container a p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 24px 0;
+}
+#main .gitfs-container a .gitfs-btn button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+#main .gitfs-container a .gitfs-btn button:hover {
+  opacity: 0.6;
+  z-index: 1;
 }/*# sourceMappingURL=main.css.map */
